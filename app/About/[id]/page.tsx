@@ -1,14 +1,9 @@
 import { notFound } from "next/navigation";
 import aboutData from "../../../public/data/about.json";
 
-type Props = {
-  params: {
-    id: string;
-  };
-}
-
-export default function AboutPage({ params }: Props) {
-  const about = aboutData.about.team.find((p) => p.eid.toString() === params.id);
+export default async function AboutPage({ params }: {params:Promise<{id:string}>}) {
+    const {id} = await params;
+  const about = aboutData.about.team.find((p) => p.eid.toString() === id);
 
   if (!about) {
     return notFound();

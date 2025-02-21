@@ -1,7 +1,8 @@
 import { notFound } from "next/navigation";
 import products from "../../../public/data/products.json";
-export default function ProductPage({ params }: { params: { id: string } }) {
-  const product = products.products.find((p) => p.id.toString() === params.id);
+export default async function ProductPage({ params }: {params:Promise<{id:string}>}) {
+    const {id} = await params;
+  const product = products.products.find((p) => p.id.toString() === id);
 
   if (!product) {
     return notFound();
