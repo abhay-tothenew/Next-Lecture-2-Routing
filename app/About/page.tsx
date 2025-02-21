@@ -24,7 +24,7 @@ export default function About() {
               </tr>
             </thead>
             <tbody>
-              {about.about.team.map((member: any, index: number) => (
+              {about.about.team.map((member, index: number) => (
                 <tr key={index}>
                   <td>{member.eid}</td>
                   <td>{member.name}</td>
