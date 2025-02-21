@@ -32,11 +32,11 @@ const styles = {
   container: {
     height: "100vh",
     display: "flex",
-    flexDirection: "column" as "column",
+    flexDirection: "column" as const,
     justifyContent: "center",
     alignItems: "center",
     color: "#333",
-    textAlign: "center" as "center",
+    textAlign: "center" as const,
   },
   heading: {
     fontSize: "2rem",

@@ -1,5 +1,4 @@
 import React from 'react';
-import products from "../public/data/products.json"
 
 
 export default async function Home(){

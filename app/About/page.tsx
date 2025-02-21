@@ -49,7 +49,7 @@ const styles = {
     minHeight: "100vh",
     padding: "20px",
     backgroundColor: "#f8f9fa",
-    textAlign: "center" as "center",
+    textAlign: "center" as const,
     marginTop:'80px'
   },
   header: {
@@ -70,13 +70,13 @@ const styles = {
   },
   tableWrapper: {
     maxHeight: "300px",
-    overflowY: "auto" as "auto",
+    overflowY: "auto" as const,
     border: "1px solid #ddd",
     borderRadius: "5px",
   },
   table: {
     width: "100%",
-    borderCollapse: "collapse" as "collapse",
+    borderCollapse: "collapse" as const,
   },
   th: {
     backgroundColor: "#007bff",
