@@ -1,0 +1,59 @@
+{
+    "about": {
+      "title": "About Us",
+      "description": "We are a leading e-commerce store providing high-quality products at the best prices.",
+      "mission": "Our mission is to bring customers top-notch products with excellent customer service.",
+      "vision": "To be the go-to platform for online shopping with a wide variety of products.",
+      "team": [
+        {
+           "eid":"144",
+          "name": "John Doe",
+          "role": "Founder & CEO",
+          "bio": "John has over 10 years of experience in the e-commerce industry."
+        },
+        {
+            "eid":"134",
+
+          "name": "Jane Smith",
+          "role": "Head of Marketing",
+          "bio": "Jane leads the marketing team with innovative campaigns."
+        },
+        {
+            "eid":"125",
+
+          "name": "Mark Johnson",
+          "role": "CTO",
+          "bio": "Mark oversees all technology-related aspects of the company."
+        },
+        {
+            "eid":"197",
+
+            "name": "Alice Johnson",
+            "role": "Data Scientist",
+            "bio": "Alice has a strong background in machine learning and data analysis."
+          },
+          {
+            "eid":"149",
+
+            "name": "Bob Brown",
+            "role": "DevOps Engineer",
+            "bio": "Bob is responsible for maintaining and scaling our infrastructure."
+          },
+          {
+            "eid":"14",
+
+            "name": "Charlie Davis",
+            "role": "UI/UX Designer",
+            "bio": "Charlie focuses on creating intuitive and visually appealing designs."
+          },
+          {
+            "eid":"44",
+
+            "name": "Eva Green",
+            "role": "Product Manager",
+            "bio": "Eva oversees the product lifecycle and ensures alignment with business goals."
+          }
+      ]
+    }
+  }
+  

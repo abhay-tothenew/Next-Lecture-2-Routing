@@ -1,0 +1,40 @@
+{
+    "products": [
+      {
+        "id": 1,
+        "name": "Wireless Headphones",
+        "price": 59.99,
+        "category": "Electronics",
+        "description": "High-quality wireless headphones with noise cancellation."
+      },
+      {
+        "id": 2,
+        "name": "Smartphone",
+        "price": 699.99,
+        "category": "Electronics",
+        "description": "Latest model smartphone with an amazing camera."
+      },
+      {
+        "id": 3,
+        "name": "Running Shoes",
+        "price": 89.99,
+        "category": "Fashion",
+        "description": "Lightweight and comfortable running shoes."
+      },
+      {
+        "id": 4,
+        "name": "Gaming Laptop",
+        "price": 1299.99,
+        "category": "Computers",
+        "description": "Powerful laptop designed for gaming and multitasking."
+      },
+      {
+        "id": 5,
+        "name": "Coffee Maker",
+        "price": 49.99,
+        "category": "Home Appliances",
+        "description": "Brews fresh coffee in minutes."
+      }
+    ]
+  }
+  
