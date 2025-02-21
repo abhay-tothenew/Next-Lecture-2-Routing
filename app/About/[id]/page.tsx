@@ -1,14 +1,13 @@
 import { notFound } from "next/navigation";
 import aboutData from "../../../public/data/about.json";
 
-interface PageProps {
+type Props = {
   params: {
     id: string;
   };
-  searchParams: { [key: string]: string | string[] | undefined };
 }
 
-export default async function AboutPage({ params, searchParams }: PageProps) {
+export default function AboutPage({ params }: Props) {
   const about = aboutData.about.team.find((p) => p.eid.toString() === params.id);
 
   if (!about) {
